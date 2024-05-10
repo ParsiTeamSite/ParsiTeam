@@ -1,0 +1,345 @@
+/*Iran Yekan*/
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  src: url('fonts/IranYekan/IRANYekanXVFaNumVF.woff2') format('woff2'), 
+       url('fonts/IranYekan/IRANYekanXVFaNumVF.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+/*Iran Sans X*/
+@font-face {
+  font-family: IranSansX;
+  font-style: Thin;
+  font-weight: 100;
+  src: url('fonts/IranSansX/IRANSansXFaNum-Thin.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: UltraLight;
+  font-weight: 200;
+  src: url('fonts/IranSansX/IRANSansXFaNum-UltraLight.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-UltraLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: Light;
+  font-weight: 300;
+  src: url('fonts/IranSansX/IRANSansXFaNum-Light.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: Regular;
+  font-weight: 400;
+  src: url('fonts/IranSansX/IRANSansXFaNum-Regular.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: Medium;
+  font-weight: 500;
+  src: url('fonts/IranSansX/IRANSansXFaNum-Medium.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: Bold;
+  font-weight: 600;
+  src: url('fonts/IranSansX/IRANSansXFaNum-Bold.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: SemiBold;
+  font-weight: 700;
+  src: url('fonts/IranSansX/IRANSansXFaNum-DemiBold.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-DemiBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: ExtraBold;
+  font-weight: 800;
+  src: url('fonts/IranSansX/IRANSansXFaNum-ExtraBold.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-ExtraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: IranSansX;
+  font-style: Black;
+  font-weight: 900;
+  src: url('fonts/IranSansX/IRANSansXFaNum-Black.woff2') format('woff2'), 
+       url('fonts/IranSansX/IRANSansXFaNum-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+/*Iran Sans*/
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Black.eot');
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IranSans/woff2/IRANSansWeb(FaNum.html)_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IranSans/woff/IRANSansWeb(FaNum.html)_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IranSans/ttf/IRANSansWeb(FaNum.html)_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Bold.eot');
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Bold?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IranSans/woff2/IRANSansWeb(FaNum.html)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IranSans/woff/IRANSansWeb(FaNum.html)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IranSans/ttf/IRANSansWeb(FaNum.html)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Medium.eot');
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IranSans/woff2/IRANSansWeb(FaNum.html)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IranSans/woff/IRANSansWeb(FaNum.html)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IranSans/ttf/IRANSansWeb(FaNum.html)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Light.eot');
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IranSans/woff2/IRANSansWeb(FaNum.html)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IranSans/woff/IRANSansWeb(FaNum.html)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IranSans/ttf/IRANSansWeb(FaNum.html)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_UltraLight.eot');
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IranSans/woff2/IRANSansWeb(FaNum.html)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IranSans/woff/IRANSansWeb(FaNum.html)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IranSans/ttf/IRANSansWeb(FaNum.html)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IranSans;
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html).eot');
+	src: url('fonts/IranSans/eot/IRANSansWeb(FaNum.html).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IranSans/woff2/IRANSansWeb(FaNum.html).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IranSans/woff/IRANSansWeb(FaNum.html).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IranSans/ttf/IRANSansWeb(FaNum.html).ttf') format('truetype');
+}
+/*Anjoman*/
+@font-face {
+  font-family: Anjoman;
+  font-style: Normal;
+  font-weight: 200;
+  src: url('fonts/Anjoman/Anjoman-FaNum-Light.html') format('woff2'), 
+       url('fonts/Anjoman/Anjoman-FaNum-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: Anjoman;
+  font-style: Normal;
+  font-weight: 300;
+  src: url('fonts/Anjoman/Anjoman-FaNum-Regular.html') format('woff2'), 
+       url('fonts/Anjoman/Anjoman-FaNum-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: Anjoman;
+  font-style: Normal;
+  font-weight: 600;
+  src: url('fonts/Anjoman/Anjoman-FaNum-Bold.html') format('woff2'), 
+       url('fonts/Anjoman/Anjoman-FaNum-Bold.html') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: Anjoman;
+  font-style: Normal;
+  font-weight: 900;
+  src: url('fonts/Anjoman/Anjoman-FaNum-Black.html') format('woff2'), 
+       url('fonts/Anjoman/Anjoman-FaNum-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+/*Farhang*/
+@font-face {
+	font-family: Farhang;
+	font-style: Normal;
+	font-weight: 700;
+	src: url('fonts/Farhang/woff2/Farhang2FaNum-bold.html') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/Farhang/woff/Farhang2FaNum-bold.html') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Farhang;
+	font-style: Normal;
+	font-weight: 400;
+	src: url('fonts/Farhang/woff2/Farhang2FaNum-regular.html') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/Farhang/woff/Farhang2FaNum-regular.html') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+/*Yekan Bakh*/
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 100;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 300;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 400;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-Regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 500;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-SemiBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 600;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 800;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-ExtraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 900;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: YekanBakh;
+	font-style: Normal;
+	font-weight: 950;
+	src: url('fonts/YekanBakh/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/YekanBakh/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+body {
+	letter-spacing: normal;
+}
+.xts-cookies-title {
+  font-size: 18px;
+}
+.xts-cookies-content {
+  font-size: 14px !important;
+}
+.xts-header-el .xts-header-el-label {
+  font-size: 14px;
+}
+.dashicons {
+  font-family: dashicons !important;
+}
+#wpadminbar .ab-icon, #wpadminbar .ab-item::before, #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon, .wp-admin-bar-arrow {
+  font: normal 20px/1 dashicons !important;
+}
+
+.xts-section-title-text {
+  display: inline-block;
+}
+.xts-mega-title {
+}
+nav {
+	letter-spacing: normal !important;
+}
+.product_meta .xts-label {
+  font-size: 14px;
+}
+.product_meta a {
+  font-size: 14px;
+}
+.woocommerce-Price-currencySymbol {
+  font-size: 16px;
+}
+@media (min-width: 1025px) {
+.xts-single-product form.cart:not(.xts-variations_form) .single_add_to_cart_button {
+  padding: 5px 30px;
+}
+}
+.star-rating {
+  font-family: font-icon !important;
+}
+.woocommerce-Reviews .comment-text .description {
+  font-size: 14px;
+}
+.woocommerce-Reviews .comment-text .meta {
+  font-size: 15px;
+}
+.comment-form-img-message {
+  font-size: 15px;
+}
+.widget_price_filter .price_slider_amount .price_label > span {
+  color: #333;
+}
+.xts-post-categories > a {
+  margin-right: 6px;
+}
+ .xts-shop-tools .xts-title {
+  font-size: 20px;
+}
+.xts-post-content .xts-post-title.xts-entities-title {
+  font-size: 18px;
+}
+.xts-post-content .xts-post-desc {
+  font-size: 15px;
+  line-height: 28px;
+}
+.widget_recent_entries a {
+	font-size: 15px;
+  line-height: 25px;
+}
+.widget_recent_comments li > a {
+  font-size: 15px;
+}
+.comment-author-link {
+  font-size: 15px;
+}
+.recentcomments {
+  font-size: 15px;
+}
+.xts-social-label {
+  font-size: 14px;
+}
+.woocommerce-product-attributes td {
+  font-size: 15px;
+}
+.xts-checkout-steps li::after {
+  transform: rotate(180deg);
+}
+.cart-empty.xts-empty-page {
+  font-size: 22px;
+}
+.elementor-element [data-type="text"], .elementor-element [data-type="button"] {
+  letter-spacing: normal !important;
+}
+.xts-dropdown-menu.xts-style-sized .xts-sub-menu > li > a, .xts-exta-menu-list > li > a {
+  font-size: 15px;
+}
+.xts-nav-label {
+  font-size: 10px;
+}
+#wpadminbar .ab-icon, #wpadminbar .ab-item::before, #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon, .wp-admin-bar-arrow {
+  font: normal 20px/1 dashicons !important;
+}
+.xts-prod-design-simple .xts-product-content-head {
+  display: block;
+}
+.xts-prefooter {
+  margin-bottom: 0;
+}
